@@ -1,0 +1,15 @@
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+  background-color: $color-white;
+  color: $color-black;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: darken($color-white, 10);
+  }
+}

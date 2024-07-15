@@ -207,6 +207,10 @@ a {
   align-items: center;
 }
 
+.self-start {
+  align-self: flex-start;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -359,6 +363,13 @@ a {
 }
 .btn:hover {
   background-color: #e6e6e6;
+}
+.btn--dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn--dark:hover {
+  background-color: #1a1a1a;
 }
 
 .media-link {

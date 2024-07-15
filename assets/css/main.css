@@ -351,6 +351,10 @@ a {
   border: 1px solid #e3e3e3;
 }
 
+.shadow-1 {
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.0784313725);
+}
+
 .btn {
   padding: 12px 24px;
   border-radius: 32px;
